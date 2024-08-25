@@ -8,13 +8,21 @@ def descomponer(x:Int, primo:Int = 2, listPrime : List[Int] = Nil):List[Int] =
     else 
         listPrime
     }
+
+def estaEnLista(elemento: Int, lista: List[Int]): Boolean = {
+  if (lista.isEmpty) false
+  else if (lista.head == elemento) true
+  else estaEnLista(elemento, lista.tail)
+}
 //Función para sacar una lista que contiene los primos comúnes de dos números m y n
-def compararPrimosComunes(lista1 : List[Int],lista2 : List[Int], listaFinal :List[Int]=Nil): List[Int] =
-    {
-    if (lista1.isEmpty) listaFinal
-    else if (lista2.contains(lista1.head)) compararPrimosComunes(lista1.tail,lista2, lista1.head::listaFinal )
-    else compararPrimosComunes(lista1.tail,lista2,listaFinal)
-    }
+def compararPrimosComunes(lista1: List[Int], lista2: List[Int], listaFinal: List[Int] = Nil): List[Int] = {
+  if (lista1.isEmpty) listaFinal
+  else if (estaEnLista(lista1.head, lista2)) 
+    compararPrimosComunes(lista1.tail, lista2, lista1.head :: listaFinal)
+  else 
+    compararPrimosComunes(lista1.tail, lista2, listaFinal)
+}
+
 
 //Función que multiplica los elementos de la listaFinal para hallar el MCD
 def encontrarMcd(primosComunes:List[Int], mcd:Int = 1):Int =
