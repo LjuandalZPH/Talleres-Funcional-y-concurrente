@@ -1,0 +1,12 @@
+2024.09.15 11:27:42 INFO  Started: Metals version 1.2.2+47-4903c4f2-SNAPSHOT in folders 'C:\Users\usuario\Desktop\Devs\Programacion U\Funcional y Concurrente\Taller 2' for client Visual Studio Code 1.93.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6f33d5ff]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@74229f79]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6f33d5ff]
+2024.09.15 11:27:43 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.15 11:27:46 INFO  Running List(C:\Users\usuario\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\usuario\Desktop\Devs\Programacion U\Funcional y Concurrente\Taller 2)
+2024.09.15 11:27:46 WARN  No build session currently active to reload.
+2024.09.15 11:27:46 INFO  Attempting to connect to the build server...
+2024.09.15 11:27:46 INFO  Running BSP server List(C:\Users\usuario\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\usuario\Desktop\Devs\Programacion U\Funcional y Concurrente\Taller 2\.scala-build\ide-options-v2.json, C:\Users\usuario\Desktop\Devs\Programacion U\Funcional y Concurrente\Taller 2)
+2024.09.15 11:27:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\usuario\Desktop\Devs\Programacion U\Funcional y Concurrente\Taller 2\.metals\bsp.trace.json or C:\Users\usuario\AppData\Local\scalameta\metals\cache\bsp.trace.json
